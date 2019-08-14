@@ -36,7 +36,7 @@ def fileStatistic():
     return jsonify(info)
 
 #question 4
-@app.rout('/get',methods=['GET'])
+@app.route('/get',methods=['GET'])
 def get():
     url='http://localhost:5000/'
     response=requests.post(url,json={}).json()
