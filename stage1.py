@@ -1,8 +1,6 @@
 import os
 from flask import *
 app=Flask(__name__)
-
-#path='/home/abhi/ananthu'
 def convert_bytes(num):
     for x in ['bytes', 'KB', 'MB', 'GB', 'TB']:
         if num < 1024.0:
