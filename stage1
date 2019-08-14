@@ -19,13 +19,22 @@ try:
     os.chdir(path)
     print('You are in ',path)
     files=os.listdir(path)
-    info={}
+    info=[]
      #2 question
-    print("File name            File size           path")
+    print("File name            File size           path          Extension")
     print("***************************************************")
     for i in files:
-        print(i,"          ",getFileSize(i,path),'         ',path)
-        info[i]=[getFileSize(i,path),path]
+        y={}
+        x=i.split('.')
+        print(i,"          ",getFileSize(i,path),'         ',path,'          ',x[1])
+        #info[i]=[getFileSize(i,path),path,x[1]]
+        y['file_name']=i
+        y['file_size']=getFileSize(i,path)
+        y['path']=path
+        y['extension']=x[1]
+        info.append(y)
+
+
     print("***************************************************")
     
 except:
