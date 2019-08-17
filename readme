@@ -4,4 +4,9 @@ requirments
 2. install flask frame work #pip install flask
 run the program
 enter the path eg: -\home\user\ananthu\
+then the contents of the path will get
+it will send through the server as json file which we can view using postman
 read me...................Stage2
+requirments
+1.
+
