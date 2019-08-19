@@ -1,12 +1,11 @@
-read me...............STAGE1
+read me...............
 requirments
 1. install os module #pip install os
 2. install flask frame work #pip install flask
-run the program
-enter the path eg: -\home\user\ananthu\
-then the contents of the path will get
-it will send through the server as json file which we can view using postman
-read me...................Stage2
-requirments
-1.
+
+first exicute the stage1,py  file by running the command "python stage1.py"
+then run the stage2.py file using the same command by changing the argument
+enter the port number in the cosole
+open postman for viewing the requests as mentioned in the question
+select the desired requestand url
 
