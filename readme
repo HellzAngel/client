@@ -7,5 +7,6 @@ first exicute the stage1,py  file by running the command "python stage1.py"
 then run the stage2.py file using the same command by changing the argument
 enter the port number in the cosole
 open postman for viewing the requests as mentioned in the question
-select the desired requestand url
+select the desired method and url in the postman
+eg:post localhost:5000 index
 
